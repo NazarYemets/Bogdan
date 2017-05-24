@@ -142,3 +142,10 @@
 .login-help{
     font-size: 12px;
 }
+
+
+/* ----- Registration modal ------- */
+
+.centered-form{
+    margin-top: 4em;
+}
