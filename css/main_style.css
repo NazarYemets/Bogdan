@@ -149,3 +149,17 @@
 .centered-form{
     margin-top: 4em;
 }
+
+/* ----- Carousel styling ------- */
+
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    min-height: 200px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+    }
+}
